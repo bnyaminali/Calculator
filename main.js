@@ -41,7 +41,7 @@ const displayChart = (totalInterestPayableValue) => {
   myChart = new Chart(ctx, {
     type: "pie",
     data: {
-      labels: ["Total Interest", "Principal Loan Amount"],
+      labels: ["کۆی بەرژەوەندیەکان", "بڕی قەرزی سەرەکی"],
       datasets: [
         {
           data: [totalInterestPayableValue, loanAmount],
